@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html lang="fr-FR">
+
+<head>
+    <title>Dorian Cotteret - Dev Web Junior - Plan du site</title>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="Portfolio - Dorian Cotteret - Développeur Web Junior">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/design.css" rel="stylesheet">
+    <link href="../css/all.min.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <div id="backg">
+        <!--Ajoute une BGC au bandeau en version 4K-->
+        <header id="bandeau">
+            <!--Menu de navigation avec l'image de fond-->
+            <a class="dice displayD" href="../index.html"><img src="../img/Dice65.webp" alt="Logo Dice"></a>
+            <!--Logo du site en version mobile-->
+            <nav class="navbar fixed-top displayD">
+                <!--NavBar version mobile-->
+                <div class="container-fluid">
+                    <a></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">COTTERET DORIAN</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 text-center">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../index.html">Accueil</a>
+                                </li>
+                                <li></li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="parcours.html">Parcours</a>
+                                </li>
+                                <li></li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="competence.html">Compétences</a>
+                                </li>
+                                <li></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="projet.html">Projets</a>
+                                </li>
+                                <li></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            
+            <nav class="navbar navbar-expand-md displayM" aria-label="Third navbar example">
+                <!--NavBar version desktop-->
+                <a class="dice" href="../index.html"><img src="../img/Dice65.webp" alt="Logo Dice"></a>
+                <!--Logo du site en version desktop-->
+                <div class="container text-center">
+                    <a class="navbar-brand"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse row" id="navbarsExample04">
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="navigation nav-item offset-1 col-2 text-center">
+                                <a class="nav-link" href="parcours.html">Parcours</a>
+                            </li>
+                            <li class="navigation nav-item offset-1 col-2 text-center">
+                                <a class="nav-link" href="competence.html">Compétences</a>
+                            </li>
+                            <li class="navigation nav-item offset-1 col-2 text-center">
+                                <a class="nav-link" href="projet.html">Projets</a>
+                            </li>
+                            <li class="navigation nav-item offset-1 col-2 text-center">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <section class="container">
+        <!--Titre de la page-->
+        <div class="row">
+            <div class="col-md-6 offset-md-3 col-lg-4 offset-lg-4 text-center offset-2 col-8 mt-5">
+                <h2 class="fw-bold">PLAN DU SITE</h2>
+            </div>
+        </div>
+    </section>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="offset-4 col-6">
+                <ul class="plan">
+                    <li><a class="nav-link black" href="../index.html"><i class="fa-regular fa-circle-down fa-2x"></i> Accueil</a></li>
+                    <li><a class="nav-link black" href="../index.html"><i class="fa-solid fa-circle-notch fa-2x"></i> A propos de moi</a></li>
+                    <li><a class="nav-link black" href="../index.html"><i class="fa-regular fa-circle fa-2x"></i> Parcours</a></li>
+                    <li><a class="nav-link black" href="../index.html"><i class="fa-regular fa-circle fa-2x"></i> Compétences</a></li>
+                    <li><a class="nav-link black" href="../index.html"><i class="fa-regular fa-circle fa-2x"></i> Projets</a></li>
+                    <li><a class="nav-link black" href="../index.html"><i class="fa-regular fa-circle fa-2x"></i> Contacts</a></li>
+                    <li><a class="nav-link black" href="../index.html"><i class="fa-regular fa-circle fa-2x"></i> Mentions Légales</a></li>
+                    <li><a class="nav-link black" href="../index.html"><i class="fa-regular fa-circle fa-2x"></i> Plan du site</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/bootstrap.bundle.min.js" async></script> <!-- Appelle le JS et Jquery de bootstrap-->
+    <script src="../js/script.js"></script> <!-- Appelle le JS -->
+
+</body>
+
+</html>

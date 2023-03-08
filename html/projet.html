@@ -1,0 +1,603 @@
+<!DOCTYPE HTML>
+<html lang="fr-FR">
+
+<head>
+    <title>Dorian Cotteret - Dev Web Junior - Mes projets</title>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="Portfolio - Dorian Cotteret - Développeur Web Junior">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/design.css" rel="stylesheet">
+    <link href="../css/all.min.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <div id="backg">
+        <!--Ajoute une BGC au bandeau en version 4K-->
+        <header id="bandeau">
+            <!--Menu de navigation avec l'image de fond-->
+            <a class="dice displayD" href="../index.html"><img src="../img/Dice65.webp" alt="Logo Dice"></a>
+            <!--Logo du site en version mobile-->
+            <nav class="navbar fixed-top displayD">
+                <!--NavBar version mobile-->
+                <div class="container-fluid">
+                    <a></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">COTTERET DORIAN</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 text-center">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../index.html">Accueil</a>
+                                </li>
+                                <li></li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="parcours.html">Parcours</a>
+                                </li>
+                                <li></li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="competence.html">Compétences</a>
+                                </li>
+                                <li></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="projet.html">Projets</a>
+                                </li>
+                                <li></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            
+            <nav class="navbar navbar-expand-md displayM" aria-label="Third navbar example">
+                <!--NavBar version desktop-->
+                <a class="dice" href="../index.html"><img src="../img/Dice65.webp" alt="Logo Dice"></a>
+                <!--Logo du site en version desktop-->
+                <div class="container text-center">
+                    <a class="navbar-brand"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse row" id="navbarsExample04">
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="navigation nav-item offset-1 col-2 text-center">
+                                <a class="nav-link" href="parcours.html">Parcours</a>
+                            </li>
+                            <li class="navigation nav-item offset-1 col-2 text-center">
+                                <a class="nav-link" href="competence.html">Compétences</a>
+                            </li>
+                            <li class="navigation nav-item offset-1 col-2 text-center">
+                                <a class="nav-link" href="projet.html">Projets</a>
+                            </li>
+                            <li class="navigation nav-item offset-1 col-2 text-center">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <section class="container">
+        <!--Titre de la page-->
+        <div class="row">
+            <div class="col-md-6 offset-md-3 col-lg-4 offset-lg-4 text-center offset-3 col-6 mb-3 mt-5">
+                <h2 class="fw-bold">MES PROJETS</h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-5">
+        <!--Contenu de la page Portfolio-->
+        <div class="container">
+            <h3 class="fw-light fs-5 text-center">N'ayant pas de réels projets à l'heure actuelle vous trouverez ici
+                certains projets des autres élèves ainsi qur certains travaux vus en cours.</h3>
+            <div class="row gy-4 gy-md-0 mt-4 text-center">
+                <!--Projet de Quentin-->
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mt-5">
+                    <div class="card">
+                        <img src="../image-projet/Quentin-one.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Projet de Quentin</h5>
+                            <a class="card-text" href="https://www.quentin.devcolmar.xyz">Voir son site</a>
+                            <br>
+                            <a class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#infoProjet1"
+                                aria-controls="infoProjet1">En savoir plus</a>
+                        </div>
+                        <div class="offcanvas offcanvas-bottom h-100" tabindex="-1" id="infoProjet1"
+                            aria-labelledby="titleProjet1">
+                            <div class="offcanvas-header">
+                                <a class="card-text" id="titleProjet1" href="https://www.quentin.devcolmar.xyz">Voir son
+                                    site</a>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <!-- Carousel -->
+                                <div id="carouselProject1" class="carousel slide shadow h-100" data-bs-ride="carousel"
+                                    data-bs-touch="true">
+                                    <div class="carousel-inner h-100">
+                                        <div class="carousel-item h-100 active" data-bs-interval="10000">
+                                            <img src="../image-projet/Quentin-one.webp" class="d-block w-100"
+                                                alt="Image slide 1">
+                                        </div>
+                                        <div class="carousel-item h-100" data-bs-interval="2000">
+                                            <img src="../image-projet/Quentin-two.webp" class="d-block w-100"
+                                                alt="Image slide 2">
+                                        </div>
+                                        <div class="carousel-item h-100">
+                                            <img src="../image-projet/Quentin-three.webp" class="d-block w-100"
+                                                alt="Image slide 3">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselProject1" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselProject1" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/col-->
+                <!--Projet de Timothée-->
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mt-5">
+                    <div class="card">
+                        <img src="../image-projet/Timothée-one.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Projet de Timothée</h5>
+                            <a class="card-text" href="https://www.timothee.devcolmar.xyz">Voir son site</a>
+                            <br>
+                            <a class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#infoProjet2"
+                                aria-controls="infoProjet1">En savoir plus</a>
+                        </div>
+                        <div class="offcanvas offcanvas-bottom h-100" tabindex="-1" id="infoProjet2"
+                            aria-labelledby="titleProjet2">
+                            <div class="offcanvas-header">
+                                <a class="card-text" id="titleProjet2" href="https://www.timothee.devcolmar.xyz/">Voir
+                                    son site</a>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <!-- Carousel -->
+                                <div id="carouselProject2" class="carousel slide shadow h-100" data-bs-ride="carousel"
+                                    data-bs-touch="true">
+                                    <div class="carousel-inner h-100">
+                                        <div class="carousel-item h-100 active" data-bs-interval="10000">
+                                            <img src="../image-projet/Timothée-one.webp" class="d-block w-100"
+                                                alt="Image slide 1">
+                                        </div>
+                                        <div class="carousel-item h-100" data-bs-interval="2000">
+                                            <img src="https://picsum.photos/1920/1080?random=5" class="d-block w-100"
+                                                alt="Image slide 2">
+                                        </div>
+                                        <div class="carousel-item h-100">
+                                            <img src="https://picsum.photos/1920/1080?random=6" class="d-block w-100"
+                                                alt="Image slide 3">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselProject2" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselProject2" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/col-->
+                <!--Projet de Marc-->
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mt-5">
+                    <div class="card">
+                        <img src="../image-projet/Marc-one.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Projet de Marc</h5>
+                            <a class="card-text" href="https://www.marc.devcolmar.xyz">Voir son site</a>
+                            <br>
+                            <a class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#infoProjet3"
+                                aria-controls="infoProjet3">En savoir plus</a>
+                        </div>
+                        <div class="offcanvas offcanvas-bottom h-100" tabindex="-1" id="infoProjet3"
+                            aria-labelledby="titleProjet3">
+                            <div class="offcanvas-header">
+                                <a class="card-text" id="titleProjet3" href="https://www.marc.devcolmar.xyz">Voir son
+                                    site</a>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <!-- Carousel -->
+                                <div id="carouselProject3" class="carousel slide shadow h-100" data-bs-ride="carousel"
+                                    data-bs-touch="true">
+                                    <div class="carousel-inner h-100">
+                                        <div class="carousel-item h-100 active" data-bs-interval="10000">
+                                            <img src="../image-projet/Marc-one.webp" class="d-block w-100"
+                                                alt="Image slide 1">
+                                        </div>
+                                        <div class="carousel-item h-100" data-bs-interval="2000">
+                                            <img src="../image-projet/Marc-two.webp" class="d-block w-100"
+                                                alt="Image slide 2">
+                                        </div>
+                                        <div class="carousel-item h-100">
+                                            <img src="../image-projet/Marc-three.webp" class="d-block w-100"
+                                                alt="Image slide 3">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselProject3" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselProject3" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/col-->
+                <!--Projet de Clément-->
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mt-5">
+                    <div class="card">
+                        <img src="../image-projet/Clement-one.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Projet de Clément</h5>
+                            <a class="card-text" href="https://www.clement.devcolmar.xyz">Voir son site</a>
+                            <br>
+                            <a class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#infoProjet4"
+                                aria-controls="infoProjet4">En savoir plus</a>
+                        </div>
+                        <div class="offcanvas offcanvas-bottom h-100" tabindex="-1" id="infoProjet4"
+                            aria-labelledby="titleProjet4">
+                            <div class="offcanvas-header">
+                                <a class="card-text" id="titleProjet4" href="https://www.clement.devcolmar.xyz">Voir son
+                                    site</a>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <!-- Carousel -->
+                                <div id="carouselProject4" class="carousel slide shadow h-100" data-bs-ride="carousel"
+                                    data-bs-touch="true">
+                                    <div class="carousel-inner h-100">
+                                        <div class="carousel-item h-100 active" data-bs-interval="10000">
+                                            <img src="../image-projet/Clement-one.webp" class="d-block w-100"
+                                                alt="Image slide 1">
+                                        </div>
+                                        <div class="carousel-item h-100" data-bs-interval="2000">
+                                            <img src="../image-projet/Clement-two.webp" class="d-block w-100"
+                                                alt="Image slide 2">
+                                        </div>
+                                        <div class="carousel-item h-100">
+                                            <img src="../image-projet/Clement-three.webp" class="d-block w-100"
+                                                alt="Image slide 3">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselProject4" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselProject4" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/col-->
+                <!--Projet de -->
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mt-5">
+                    <div class="card">
+                        <img src="https://picsum.photos/300/150?random=1" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Projet 5</h5>
+                            <a class="card-text" href="https://www.clement.devcolmar.xyz">Voir son site</a>
+                            <br>
+                            <a class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#infoProjet5"
+                                aria-controls="infoProjet5">En savoir plus</a>
+                        </div>
+                        <div class="offcanvas offcanvas-bottom h-100" tabindex="-1" id="infoProjet5"
+                            aria-labelledby="titleProjet5">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="titleProjet5">Projet 5</h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <!-- Carousel -->
+                                <div id="carouselProject5" class="carousel slide shadow h-100" data-bs-ride="carousel"
+                                    data-bs-touch="true">
+                                    <div class="carousel-inner h-100">
+                                        <div class="carousel-item h-100 active" data-bs-interval="10000">
+                                            <img src="https://picsum.photos/1920/1080?random=3" class="d-block w-100"
+                                                alt="Image slide 1">
+                                            <div class="carousel-caption d-none d-md-block bg-white black">
+                                                <h5>Slide 1</h5>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                                                    sollicitudin.</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item h-100" data-bs-interval="2000">
+                                            <img src="https://picsum.photos/1920/1080?random=2" class="d-block w-100"
+                                                alt="Image slide 2">
+                                            <div class="carousel-caption d-none d-md-block bg-white black">
+                                                <h5>Slide 2</h5>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                                                    sollicitudin.</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item h-100">
+                                            <img src="https://picsum.photos/1920/1080?random=1" class="d-block w-100"
+                                                alt="Image slide 3">
+                                            <div class="carousel-caption d-none d-md-block bg-white black">
+                                                <h5>Slide 3</h5>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                                                    sollicitudin.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselProject5" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselProject5" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/col-->
+                <!--Projet de -->
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mt-5">
+                    <div class="card">
+                        <img src="https://picsum.photos/300/150?random=2" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Projet 6</h5>
+                            <a class="card-text" href="https://www.clement.devcolmar.xyz">Voir son site</a>
+                            <br>
+                            <a class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#infoProjet6"
+                                aria-controls="infoProjet6">En savoir plus</a>
+                        </div>
+                        <div class="offcanvas offcanvas-bottom h-100" tabindex="-1" id="infoProjet6"
+                            aria-labelledby="titleProjet6">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="titleProjet6">Projet 6</h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <!-- Carousel -->
+                                <div id="carouselProject6" class="carousel slide shadow h-100" data-bs-ride="carousel"
+                                    data-bs-touch="true">
+                                    <div class="carousel-inner h-100">
+                                        <div class="carousel-item h-100 active" data-bs-interval="10000">
+                                            <img src="https://picsum.photos/1920/1080?random=4" class="d-block w-100"
+                                                alt="Image slide 1">
+                                            <div class="carousel-caption d-none d-md-block bg-white black">
+                                                <h5>Slide 1</h5>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                                                    sollicitudin.</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item h-100" data-bs-interval="2000">
+                                            <img src="https://picsum.photos/1920/1080?random=5" class="d-block w-100"
+                                                alt="Image slide 2">
+                                            <div class="carousel-caption d-none d-md-block bg-white black">
+                                                <h5>Slide 2</h5>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                                                    sollicitudin.</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item h-100">
+                                            <img src="https://picsum.photos/1920/1080?random=6" class="d-block w-100"
+                                                alt="Image slide 3">
+                                            <div class="carousel-caption d-none d-md-block bg-white black">
+                                                <h5>Slide 3</h5>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                                                    sollicitudin.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselProject6" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselProject6" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/col-->
+                <!--Projet perso -->
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mt-5">
+                    <div class="card">
+                        <img src="../image-projet/Perso-two.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Projet cours code</h5>
+                            <p class="card-text">Projets divers faits en cours</p>
+                            <a class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#infoProjet7"
+                                aria-controls="infoProjet7">En savoir plus</a>
+                        </div>
+                        <div class="offcanvas offcanvas-bottom h-100" tabindex="-1" id="infoProjet7"
+                            aria-labelledby="titleProjet7">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="titleProjet7">Projet perso</h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <!-- Carousel -->
+                                <div id="carouselProject7" class="carousel slide shadow h-100" data-bs-ride="carousel"
+                                    data-bs-touch="true">
+                                    <div class="carousel-inner h-100">
+                                        <div class="carousel-item h-100 active" data-bs-interval="10000">
+                                            <img src="../image-projet/Perso-one.webp" class="d-block w-100"
+                                                alt="Image slide 1">
+                                        </div>
+                                        <div class="carousel-item h-100" data-bs-interval="2000">
+                                            <img src="../image-projet/Perso-three.webp" class="d-block w-100"
+                                                alt="Image slide 2">
+                                        </div>
+                                        <div class="carousel-item h-100">
+                                            <img src="../image-projet/Perso-two.webp" class="d-block w-100"
+                                                alt="Image slide 3">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselProject7" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselProject7" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/col-->
+                <!--Projet perso photoshop -->
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mt-5">
+                    <div class="card">
+                        <img src="../image-projet/projet-one-max.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Projet cours photoshop</h5>
+                            <p class="card-text">Projets photoshop faits en cours</p>
+                            <a class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#infoProjet8"
+                                aria-controls="infoProjet8">En savoir plus</a>
+                        </div>
+                        <div class="offcanvas offcanvas-bottom h-100" tabindex="-1" id="infoProjet8"
+                            aria-labelledby="titleProjet8">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="titleProjet8">Projet photoshop</h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <!-- Carousel -->
+                                <div id="carouselProject8" class="carousel slide shadow h-100" data-bs-ride="carousel"
+                                    data-bs-touch="true">
+                                    <div class="carousel-inner h-100">
+                                        <div class="carousel-item h-100 active" data-bs-interval="10000">
+                                            <img src="../image-projet/persoone.webp" class="d-block w-100"
+                                                alt="Image slide 1">
+                                            <div class="carousel-caption d-none d-md-block bg-white black">
+                                                <h5>Cours photoshop</h5>
+                                                <p>Reproduction d'Attack on the Cat avec dans le rôle principal Eren
+                                                    Netbeans notre sauveur. (Prochainement sur les écrans)</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item h-100" data-bs-interval="2000">
+                                            <img src="../image-projet/Netbeans.webp" class="d-block w-100"
+                                                alt="Image slide 2">
+                                            <div class="carousel-caption d-none d-md-block bg-white black">
+                                                <h5>Cours photoshop</h5>
+                                                <p>Netbeans > all</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item h-100">
+                                            <img src="../image-projet/poissirene.webp" class="d-block w-100"
+                                                alt="Image slide 3">
+                                            <div class="carousel-caption d-none d-md-block bg-white black">
+                                                <h5>Cours photoshop</h5>
+                                                <p>Poissirène dans la vrai vie véritable</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselProject8" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselProject8" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/col-->
+            </div>
+            <!--/row-->
+        </div>
+        <!--/container-->
+    </section>
+
+    <footer class="container-fluid mt-md-4 mt-5">
+        <div class="row">
+            <div class="col-5 offset-md-4 col-md-2 text-center">
+                <a class="displayM white" href="plansite.html">Plan du Site</a>
+                <!--Version desktop-->
+                <a class="displayD white" href="plansite.html"><i
+                        class="fa-solid fa-magnifying-glass fa-2x mt-3"></i><br>Plan du site</a>
+                <!--Version mobile-->
+            </div>
+            <div class=" offset-2 offset-md-0 col-5 col-md-2 text-center">
+                <a class="displayM white" href="mentionslegales.html">Mentions Légales</a>
+                <a class="displayD white" href="mentionslegales.html"><i
+                        class="fa-solid fa-scale-balanced fa-2x mt-3"></i><br>Mentions Légales</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/bootstrap.bundle.min.js" async></script>
+    <!-- Appelle le JS et Jquery de bootstrap-->
+    <script src="../js/script.js"></script>
+    <!-- Appelle le JS -->
+
+</body>
+
+</html>

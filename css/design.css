@@ -1,0 +1,258 @@
+@font-face {
+  font-family: 'Signika';
+  font-weight: 300;
+  src: url('../typo/Signika/static/Signika-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Signika';
+  font-weight: 400;
+src: url('../typo/Signika/static/Signika-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Signika';
+  font-weight: 500;
+src: url('../typo/Signika/static/Signika-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Signika';
+  font-weight: 600;
+src: url('../typo/Signika/static/Signika-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Signika';
+  font-weight: 700;
+src: url('../typo/Signika/static/Signika-Bold.ttf') format('truetype');
+}
+
+
+
+body { /*Application des paramètres du site à l'ensemble de la page*/
+  font-family: 'Signika', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgb(0, 0, 0);
+  background-color: #E8F1F2;
+}
+
+@media screen and (max-width: 767px) { /*Applique les paramètres et l'affichage en version Mobile*/
+  .dice {
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+  .displayM {
+    display: none;
+  }
+  .nav-link {
+    color: black;
+  }
+  .handFull {
+    background: no-repeat center;
+    height: 60%;
+    opacity: 0.1;
+    position: absolute;
+    margin-top: 30%;
+    left: auto;
+  }
+}
+
+@media screen and (min-width: 768px) { /*Applique les paramètres et l'affichage en version Desktop*/
+  .dice {
+    position: absolute;
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+  }
+  .displayD {
+    display: none;
+  }
+  .nav-link {
+    color: white;
+  }
+}
+
+@media screen and (min-width: 1921px) { /*Applique les paramètres pour les très grands écrans*/
+  .dice {
+    display: none;
+  }
+  #backg {
+    background: #00090E;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+#bandeaufull { /*Image du bandeau sur page d'accueil*/
+  background: url("../img/bandeaufull.webp") no-repeat center;
+  height: 500px;
+}
+
+#bandeau { /*Image du bandeau*/
+  background: url("../img/bandeau.webp") no-repeat center;
+  height: 200px;    
+}
+
+#bandeaudice { /*Image du bandeau sur page A propos*/
+  background: url("../img/bandeaudice.webp") no-repeat center;
+  height: 100px;    
+}
+
+a { /*Couleur des balise a*/
+  text-decoration:none;
+  color: black;
+}
+
+.row { /*Défini les propriétés de mes row*/
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0;
+  clear: both;
+}
+
+.image { /**/
+  margin-bottom: 1rem;
+}
+  
+h1, h2, h3 { /*Applique la couleur principale aux titres des pages*/
+  color: #015876;
+}
+
+li { /*Permet le placement de la navigation dans le header desktop*/
+  list-style-type: none;
+  padding-top: 20px;
+}
+
+.logo { /*Permet le placement du logo dans le header desktop*/
+  padding-top: 10px;
+}
+  
+footer {/*Permet de définir la couleur de fond du footer*/
+  background-color: #015876;
+  padding: 10px;
+}
+
+.white { /*Permet de mettre en blanc les textes appelés avec cette classe*/
+  color: white;
+}
+
+.icon-color-orange { /*Applique couleur orange au icones*/
+  color: #F4802b;
+}
+
+.icon-color-blue, .bluegreen, #parcours h3 { /*Applique couleurs vert/bleu*/
+  color: #019098;
+}
+
+.black { /*Applique couleur noir*/
+  color: black;
+}
+
+.card-img-top { /*Pour les images de la page projets*/
+  object-fit: cover;
+  height: 200px;
+}
+
+.card { /*Défini une taille minimum pour les card de la page projets*/
+  min-height: 100%;
+}
+
+.buttonBlue { /*Défini les boutons bleu*/
+  background-color: #019098;
+  border-radius: 90px;
+  border: 4px double #cccccc;
+  color: #eeeeee;
+  text-align: center;
+  padding: 15px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.buttonOrange { /*Défini les boutons orange*/
+  background-color: #F4802b;
+  border-radius: 90px;
+  border: 4px double #cccccc;
+  color: #eeeeee;
+  text-align: center;
+  padding: 15px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.navbar .navbar-toggler { /*Applique couleur blanche en BG*/
+  background-color: white;
+}
+
+/*Page Accueil*/
+.hand {
+  bottom: 6rem;
+}
+
+.plan {
+  font-size: 1rem;
+}
+
+/* Mise en page "Parcours"*/
+.parcours .parcours-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #050d18;
+}
+
+.parcours .parcours-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #F4802b;
+  position: relative;
+}
+
+.parcours .parcours-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  margin-bottom: 10px;
+}
+
+.parcours .parcours-item h5 {
+  font-size: 16px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.parcours .parcours-item ul {
+  padding-left: 20px;
+}
+
+.parcours .parcours-item ul li {
+  padding-bottom: 10px;
+}
+
+.parcours .parcours-item:last-child {
+  padding-bottom: 0;
+}
+
+.parcours .parcours-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #F4802b;
+}
